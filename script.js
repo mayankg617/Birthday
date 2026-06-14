@@ -1,5 +1,43 @@
-let c=5;let e=document.getElementById('count');let o=document.getElementById('overlay');
-let m=document.getElementById('main');
-let t='21 May 2024... A simple text. 14 May 2026... Destiny brought us together again. Happy Birthday Mansi!';
-function type(i=0){if(i<t.length){document.getElementById('typing').textContent+=t[i];setTimeout(()=>type(i+1),40);}}
-let iv=setInterval(()=>{c--;e.textContent=c;if(c==0){clearInterval(iv);o.style.display='none';m.classList.remove('hidden');type();}},1000);
+let percent=0;
+
+let counter=document.querySelector(".counter");
+
+let loader=document.querySelector("#loader");
+
+let typing=document.querySelector("#typing");
+
+let text="21 May 2024...\nA simple message.\nNo one knew...\nit would become a beautiful habit.";
+
+let i=0;
+
+let interval=setInterval(()=>{
+
+percent++;
+
+counter.innerHTML=percent+"%";
+
+if(percent==100){
+
+clearInterval(interval);
+
+loader.style.display="none";
+
+typeWriter();
+
+}
+
+},45);
+
+function typeWriter(){
+
+if(i<text.length){
+
+typing.innerHTML+=text.charAt(i);
+
+i++;
+
+setTimeout(typeWriter,60);
+
+}
+
+}
