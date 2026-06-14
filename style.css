@@ -1,0 +1,5 @@
+body{margin:0;font-family:Arial;background:linear-gradient(#ffd6e7,#fff);overflow:hidden;text-align:center}
+.hidden{display:none}#overlay{height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center}
+#count{font-size:80px;color:#e91e63}.carousel{display:flex;gap:10px;justify-content:center}
+.carousel img{width:220px;height:320px;object-fit:cover;border-radius:20px;animation:float 4s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-10px)}}.cake{font-size:60px;animation:spin 8s linear infinite}@keyframes spin{to{transform:rotateY(360deg)}}
