@@ -1,43 +1,15 @@
-let percent=0;
+document.addEventListener("DOMContentLoaded", function(){
 
-let counter=document.querySelector(".counter");
+let loader=document.getElementById("loader");
 
-let loader=document.querySelector("#loader");
-
-let typing=document.querySelector("#typing");
-
-let text="21 May 2024...\nA simple message.\nNo one knew...\nit would become a beautiful habit.";
-
-let i=0;
-
-let interval=setInterval(()=>{
-
-percent++;
-
-counter.innerHTML=percent+"%";
-
-if(percent==100){
-
-clearInterval(interval);
+setTimeout(function(){
 
 loader.style.display="none";
 
-typeWriter();
+document.body.style.background="pink";
 
-}
+document.body.innerHTML="<h1 style='font-size:70px;text-align:center;margin-top:200px;color:red;'>Happy Birthday Noni ❤️</h1>";
 
-},45);
+},5000);
 
-function typeWriter(){
-
-if(i<text.length){
-
-typing.innerHTML+=text.charAt(i);
-
-i++;
-
-setTimeout(typeWriter,60);
-
-}
-
-}
+});
