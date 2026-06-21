@@ -29,20 +29,20 @@ const CONFIG = {
 
     childhood: {
         src: 'assets/childhood.jpg',
-        caption: 'Some smiles belong to childhood...\nSome innocence never leaves the heart.',
-        duration: 18000,
+        caption: 'Every beautiful story...\nonce began with an innocent smile.',
+        duration: 12000,
     },
 
     growth: {
         src: 'assets/growth.jpg',
         caption: 'Years changed...\nDreams grew bigger...\nBut kindness remained the same.',
-        duration: 18000,
+        duration: 12000,
     },
 
     present: {
         src: 'assets/present.jpg',
-        caption: 'Some people do not become beautiful with time...\nTime becomes beautiful because of them.',
-        duration: 17000,
+        caption: 'Some people do not enter our lives to change them...\nThey simply make ordinary days feel extraordinary.',
+        duration: 11000,
     },
 
     gift: {
@@ -50,9 +50,9 @@ const CONFIG = {
     },
 
     celebration: {
-        duration: 22000,
-        birthdayMessage: '🌸 Happy Birthday, Noni 🌸\n\nMay every day of your life\nfeel as beautiful as you make ours.',
-        balloonCount: 12,
+        duration: 20000,
+        birthdayMessage: '🌸 Happy Birthday, Dear Noni 🌸\n\nMay every day of your life\nfeel as beautiful as you make ours.',
+        balloonCount: 18,
         fireworkCount: 8,
         petalCount: 18,
     },
@@ -72,7 +72,7 @@ const CONFIG = {
 
             "On your birthday, I just want you to know — the world is a little warmer, a little kinder, and a whole lot more beautiful because you are in it.",
 
-            "Happy Birthday. 🌸"
+            "Happy Birthday Bacchua. 🌸"
 
         ]
     },
@@ -914,7 +914,7 @@ const LetterEngine = {
             color:rgba(255,255,255,0);
             letter-spacing:.06em;
         `;
-        blackout.textContent = 'The End ❤️';
+        blackout.textContent = 'A New Journey Begins ❤️';
         document.body.appendChild(blackout);
 
         await Util.wait(100);
@@ -999,7 +999,7 @@ const MovieController = {
     await OpeningController.dismiss();
 
     // Begin the movie
-    MovieController.start();
+    MovieController.start()
 
 })();
 
