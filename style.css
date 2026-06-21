@@ -576,7 +576,7 @@ SCENE 2 : INTRO
 
     max-width: 850px;
 
-   font-family: 'Cinzel', serif;
+    font-family: 'Cinzel', serif;
 
     font-size: clamp(2rem, 4vw, 3.8rem);
 
@@ -606,11 +606,9 @@ SCENE 3 : STORY
 #scene-story {
 
     background:
-        radial-gradient(
-            circle at center,
+        radial-gradient(circle at center,
             #1b2433 0%,
-            #0f141d 100%
-        );
+            #0f141d 100%);
 
 }
 
@@ -793,33 +791,27 @@ MEMORY COLLECTION
 #scene-childhood {
 
     background:
-        radial-gradient(
-            circle at center,
+        radial-gradient(circle at center,
             #34261a 0%,
-            #1d1812 100%
-        );
+            #1d1812 100%);
 
 }
 
 #scene-present {
 
     background:
-        radial-gradient(
-            circle at center,
+        radial-gradient(circle at center,
             #223044 0%,
-            #121923 100%
-        );
+            #121923 100%);
 
 }
 
 #scene-growth {
 
     background:
-        radial-gradient(
-            circle at center,
+        radial-gradient(circle at center,
             #2d2117 0%,
-            #1f1710 100%
-        );
+            #1f1710 100%);
 
 }
 
@@ -1036,7 +1028,7 @@ MEMORY SPACING
 #scene-growth .scene-content,
 #scene-present .scene-content {
 
-   
+
     justify-content: center;
 
     align-items: center;
@@ -1181,12 +1173,10 @@ SCENE 8 : CELEBRATION
 
 #scene-celebration {
 
-   background:
-    radial-gradient(
-        circle at center,
-        #3b2f18 0%,
-        #221b10 100%
-    );
+    background:
+        radial-gradient(circle at center,
+            #3b2f18 0%,
+            #221b10 100%);
 
 }
 
@@ -1250,7 +1240,7 @@ SCENE 8 : CELEBRATION
 
     font-family: 'Great Vibes', cursive;
 
-   font-size: clamp(1.7rem, 2.6vw, 3rem);
+    font-size: clamp(1.7rem, 2.6vw, 3rem);
 
     line-height: 1.6;
 
@@ -2429,6 +2419,55 @@ UTILITY CLASSES
     color: #4a2f1b;
 
     transition: opacity 1.2s ease;
+
+}
+
+#birthday-cake {
+
+    width: min(420px, 65vw);
+
+    height: auto;
+
+    display: block;
+
+    filter:
+        drop-shadow(0 25px 45px rgba(0, 0, 0, .35));
+
+}
+
+#cake-container {
+
+    opacity: 0;
+
+    transform: translateY(80px) scale(.85);
+
+}
+
+.animate-cake {
+
+    animation: royalCakeEntrance 2.2s ease forwards;
+
+}
+
+@keyframes royalCakeEntrance {
+
+    0% {
+
+        opacity: 0;
+
+        transform:
+            translateY(80px) scale(.85);
+
+    }
+
+    100% {
+
+        opacity: 1;
+
+        transform:
+            translateY(0) scale(1);
+
+    }
 
 }
 

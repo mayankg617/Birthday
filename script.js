@@ -57,53 +57,53 @@ const CONFIG = {
         petalCount: 18,
     },
 
-   letter: {
-    duration: 25000,
+    letter: {
+        duration: 25000,
 
-    paragraphs: [
+        paragraphs: [
 
-        "Dear Noni,",
+            "Dear Noni,",
 
-        "Some people walk into your life quietly, and before you know it, they have become your favourite part of every day.",
+            "Some people walk into your life quietly, and before you know it, they have become your favourite part of every day.",
 
-        "That's what happened with you.",
+            "That's what happened with you.",
 
-        "It started with a simple 'Hi.' And somewhere between those late-night talks and everyday little moments — it became something I genuinely treasure.",
+            "It started with a simple 'Hi.' And somewhere between those late-night talks and everyday little moments — it became something I genuinely treasure.",
 
-        "On your birthday, I just want you to know — the world is a little warmer, a little kinder, and a whole lot more beautiful because you are in it.",
+            "On your birthday, I just want you to know — the world is a little warmer, a little kinder, and a whole lot more beautiful because you are in it.",
 
-        "Happy Birthday. 🌸"
+            "Happy Birthday. 🌸"
 
-    ]
-},
+        ]
+    },
 
     story: {
         charDelay: 75,
         lineDelay: 850,
         blockDelay: 1600,
         lines: [
-            { type: 'date',  text: '21 May 2024' },
-            { type: 'line',  text: 'A simple "Hi."' },
-            { type: 'line',  text: 'A few conversations.' },
-            { type: 'line',  text: 'Nothing unusual.' },
-            { type: 'line',  text: 'Life quietly moved ahead.' },
+            { type: 'date', text: '21 May 2024' },
+            { type: 'line', text: 'A simple "Hi."' },
+            { type: 'line', text: 'A few conversations.' },
+            { type: 'line', text: 'Nothing unusual.' },
+            { type: 'line', text: 'Life quietly moved ahead.' },
             { type: 'pause' },
-            { type: 'line',  text: '...' },
+            { type: 'line', text: '...' },
             { type: 'pause' },
-            { type: 'date',  text: '14 May 2026' },
-            { type: 'line',  text: 'Another message.' },
-            { type: 'line',  text: 'This time,' },
-            { type: 'line',  text: 'the conversations lasted longer.' },
-            { type: 'line',  text: 'The silence grew shorter.' },
-            { type: 'line',  text: 'The smiles became frequent.' },
-            { type: 'line',  text: 'And slowly...' },
-            { type: 'line',  text: 'without either of us noticing...' },
-            { type: 'line',  text: 'talking every day' },
-            { type: 'line',  text: 'became a beautiful habit.' },
+            { type: 'date', text: '14 May 2026' },
+            { type: 'line', text: 'Another message.' },
+            { type: 'line', text: 'This time,' },
+            { type: 'line', text: 'the conversations lasted longer.' },
+            { type: 'line', text: 'The silence grew shorter.' },
+            { type: 'line', text: 'The smiles became frequent.' },
+            { type: 'line', text: 'And slowly...' },
+            { type: 'line', text: 'without either of us noticing...' },
+            { type: 'line', text: 'talking every day' },
+            { type: 'line', text: 'became a beautiful habit.' },
             { type: 'pause' },
-            { type: 'line',  text: 'Some habits aren\'t formed by time...' },
-            { type: 'line',  text: 'they\'re formed by the comfort' },
-            { type: 'line',  text: 'of the person on the other side.' },
+            { type: 'line', text: 'Some habits aren\'t formed by time...' },
+            { type: 'line', text: 'they\'re formed by the comfort' },
+            { type: 'line', text: 'of the person on the other side.' },
         ],
     },
 
@@ -114,64 +114,64 @@ const CONFIG = {
 ======================================================= */
 
 const DOM = {
-    overlay:          document.getElementById('global-overlay'),
-    flash:            document.getElementById('global-flash'),
-    particles:        document.getElementById('particles-container'),
+    overlay: document.getElementById('global-overlay'),
+    flash: document.getElementById('global-flash'),
+    particles: document.getElementById('particles-container'),
 
     // Scenes
-    sceneLoader:      document.getElementById('scene-loader'),
-    sceneIntro:       document.getElementById('scene-intro'),
-    sceneStory:       document.getElementById('scene-story'),
-    sceneChildhood:   document.getElementById('scene-childhood'),
-    sceneGrowth:      document.getElementById('scene-growth'),
-    scenePresent:     document.getElementById('scene-present'),
-    sceneGift:        document.getElementById('scene-gift'),
+    sceneLoader: document.getElementById('scene-loader'),
+    sceneIntro: document.getElementById('scene-intro'),
+    sceneStory: document.getElementById('scene-story'),
+    sceneChildhood: document.getElementById('scene-childhood'),
+    sceneGrowth: document.getElementById('scene-growth'),
+    scenePresent: document.getElementById('scene-present'),
+    sceneGift: document.getElementById('scene-gift'),
     sceneCelebration: document.getElementById('scene-celebration'),
-    sceneLetter:      document.getElementById('scene-letter'),
+    sceneLetter: document.getElementById('scene-letter'),
 
     // Loader
-    heartbeatIcon:    document.getElementById('heartbeat-icon'),
-    loadingTitle:     document.getElementById('loading-title'),
-    loadingCounter:   document.getElementById('loading-counter'),
+    heartbeatIcon: document.getElementById('heartbeat-icon'),
+    loadingTitle: document.getElementById('loading-title'),
+    loadingCounter: document.getElementById('loading-counter'),
 
     // Story
-    storyContainer:   document.getElementById('story-container'),
+    storyContainer: document.getElementById('story-container'),
 
     // Memory
-    childhoodPhoto:   document.getElementById('childhood-photo'),
-    growthPhoto:      document.getElementById('growth-photo'),
-    presentPhoto:     document.getElementById('present-photo'),
+    childhoodPhoto: document.getElementById('childhood-photo'),
+    growthPhoto: document.getElementById('growth-photo'),
+    presentPhoto: document.getElementById('present-photo'),
 
     // Gift
-    giftBox:          document.getElementById('gift-box'),
-    giftCaption:      document.getElementById('gift-caption'),
+    giftBox: document.getElementById('gift-box'),
+    giftCaption: document.getElementById('gift-caption'),
 
     // Celebration
     balloonContainer: document.getElementById('balloon-container'),
-    fireworkContainer:document.getElementById('firework-container'),
-    cakeContainer:    document.getElementById('cake-container'),
-    birthdayMessage:  document.getElementById('birthday-message'),
+    fireworkContainer: document.getElementById('firework-container'),
+    cakeContainer: document.getElementById('cake-container'),
+    birthdayMessage: document.getElementById('birthday-message'),
 
     // Letter
-    letterContainer:  document.getElementById('letter-container'),
-    signature:        document.getElementById('signature'),
+    letterContainer: document.getElementById('letter-container'),
+    signature: document.getElementById('signature'),
 
     // Audio
 
-bgMusic:
-    document.getElementById('bg-music'),
+    bgMusic:
+        document.getElementById('bg-music'),
 
-heartbeatAudio:
-    document.getElementById('heartbeat-audio'),
+    heartbeatAudio:
+        document.getElementById('heartbeat-audio'),
 
-typewriterAudio:
-    document.getElementById('typewriter-audio'),
+    typewriterAudio:
+        document.getElementById('typewriter-audio'),
 
-bellAudio:
-    document.getElementById('bell-audio'),
+    bellAudio:
+        document.getElementById('bell-audio'),
 
-giftAudio:
-    document.getElementById('gift-audio'),
+    giftAudio:
+        document.getElementById('gift-audio'),
 };
 
 /* =======================================================
@@ -308,13 +308,15 @@ const OpeningController = {
 const LoaderEngine = {
 
     async play() {
-       SceneManager.show(DOM.sceneLoader);
+        SceneManager.show(DOM.sceneLoader);
+        DOM.heartbeatAudio.volume = 0.5;
+        DOM.heartbeatAudio.play();
 
-// Show 0% immediately
-DOM.loadingCounter.textContent = '0%';
+        // Show 0% immediately
+        DOM.loadingCounter.textContent = '0%';
 
-// Give the loader scene time to become visible
-await Util.wait(900);
+        // Give the loader scene time to become visible
+        await Util.wait(900);
 
         const cfg = CONFIG.loader;
         const stepMs = cfg.duration / cfg.steps;
@@ -334,6 +336,8 @@ await Util.wait(900);
         });
 
         await Util.wait(600);
+        DOM.heartbeatAudio.pause();
+        DOM.heartbeatAudio.currentTime = 0;
     },
 
 };
@@ -360,6 +364,16 @@ const StoryEngine = {
     _typeText(el, text, charDelay) {
         return new Promise(resolve => {
             let i = 0;
+            if (DOM.typewriterAudio.paused) {
+
+                DOM.typewriterAudio.volume = 0.07;
+
+                DOM.typewriterAudio.loop = true;
+
+                DOM.typewriterAudio.play();
+                DOM.typewriterAudio.playbackRate = 0.65;
+
+            }
             el.textContent = '';
             const cursor = document.createElement('span');
             cursor.className = 'story-cursor';
@@ -404,64 +418,64 @@ const StoryEngine = {
             DOM.storyContainer.appendChild(el);
 
             // Keep only the latest 3 visible lines
-const storyLines = DOM.storyContainer.children;
+            const storyLines = DOM.storyContainer.children;
 
-if (storyLines.length >= 1) {
+            if (storyLines.length >= 1) {
 
-    Array.from(storyLines).forEach((line, index) => {
+                Array.from(storyLines).forEach((line, index) => {
 
-        line.style.transition =
-            "opacity 1.2s ease, transform 1.2s ease";
+                    line.style.transition =
+                        "opacity 1.2s ease, transform 1.2s ease";
 
-        if (index === storyLines.length - 1) {
+                    if (index === storyLines.length - 1) {
 
-            // newest line
+                        // newest line
 
-            line.style.opacity = "1";
+                        line.style.opacity = "1";
 
-            line.style.transform = "translateY(0px)";
+                        line.style.transform = "translateY(0px)";
 
-        }
+                    }
 
-        else if (index === storyLines.length - 2) {
+                    else if (index === storyLines.length - 2) {
 
-            // previous line
+                        // previous line
 
-            line.style.opacity = "0.55";
+                        line.style.opacity = "0.55";
 
-            line.style.transform = "translateY(-8px)";
+                        line.style.transform = "translateY(-8px)";
 
-        }
+                    }
 
-        else if (index === storyLines.length - 3) {
+                    else if (index === storyLines.length - 3) {
 
-            // oldest visible
+                        // oldest visible
 
-            line.style.opacity = "0.20";
+                        line.style.opacity = "0.20";
 
-            line.style.transform = "translateY(-16px)";
+                        line.style.transform = "translateY(-16px)";
 
-        }
+                    }
 
-    });
+                });
 
-}
+            }
 
-if (storyLines.length > 3) {
+            if (storyLines.length > 3) {
 
-    const oldest = storyLines[0];
+                const oldest = storyLines[0];
 
-    setTimeout(() => {
+                setTimeout(() => {
 
-        if (oldest.parentNode) {
+                    if (oldest.parentNode) {
 
-            oldest.remove();
+                        oldest.remove();
 
-        }
+                    }
 
-    }, 1200);
+                }, 1200);
 
-}
+            }
 
             // Fade in the element
             el.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
@@ -481,6 +495,10 @@ if (storyLines.length > 3) {
         }
 
         await Util.wait(1800);
+
+        DOM.typewriterAudio.pause();
+
+        DOM.typewriterAudio.currentTime = 0;
     },
 
 };
@@ -516,31 +534,31 @@ const MemoryEngine = {
         await SceneManager.transition(fromScene, toScene, 2200);
         await Util.wait(400);
 
-// Prepare caption first
-// this._setCaption(toScene, cfg.caption);
+        // Prepare caption first
+        // this._setCaption(toScene, cfg.caption);
 
-// Prepare photo transition
-photo.style.transition =
-    'opacity 2.5s ease, transform 12s linear';
+        // Prepare photo transition
+        photo.style.transition =
+            'opacity 2.5s ease, transform 12s linear';
 
-// Start photo immediately
-requestAnimationFrame(() => {
+        // Start photo immediately
+        requestAnimationFrame(() => {
 
-    photo.style.opacity = '1';
+            photo.style.opacity = '1';
 
-    photo.style.transform = 'scale(1.08)';
+            photo.style.transform = 'scale(1.08)';
 
-});
+        });
 
-await Util.wait(800);
+        await Util.wait(800);
 
-// Show caption after photo starts appearing
-this._setCaption(toScene, cfg.caption);
+        // Show caption after photo starts appearing
+        this._setCaption(toScene, cfg.caption);
 
         // Add float after initial appearance
-       await Util.wait(2500);
+        await Util.wait(2500);
 
-photo.classList.add('memory-float');
+        photo.classList.add('memory-float');
 
         await Util.wait(cfg.duration - 3400);
     },
@@ -597,6 +615,12 @@ const GiftEngine = {
 
             // Wait for user click — pure event-driven
             DOM.giftBox.addEventListener('click', async () => {
+
+                DOM.giftAudio.currentTime = 0;
+
+                DOM.giftAudio.volume = 0.4;
+
+                DOM.giftAudio.play();
 
                 DOM.giftBox.classList.remove('animate-gift');
                 DOM.giftBox.classList.add('animate-gift-open');
@@ -678,6 +702,10 @@ const CelebrationEngine = {
     async play() {
         await SceneManager.transition(DOM.sceneGift, DOM.sceneCelebration, 1200);
 
+        DOM.cakeContainer.classList.remove('animate-cake');
+
+        DOM.cakeContainer.style.opacity = '0';
+
         // Balloons
         this._launchBalloons();
 
@@ -686,11 +714,28 @@ const CelebrationEngine = {
 
         // Birthday message
         await Util.wait(1000);
+        DOM.bellAudio.currentTime = 0;
+
+        DOM.bellAudio.volume = 0.4;
+
+        DOM.bellAudio.play();
+
+        setTimeout(() => {
+
+            DOM.bellAudio.currentTime = 0;
+
+            DOM.bellAudio.play();
+
+        }, 2500);
         DOM.birthdayMessage.innerHTML = CONFIG.celebration.birthdayMessage.replace(/\n/g, '<br>');
         DOM.birthdayMessage.style.opacity = '0';
         DOM.birthdayMessage.style.transition = 'opacity 2s ease';
         await Util.wait(200);
         DOM.birthdayMessage.style.opacity = '1';
+
+        DOM.bellAudio.currentTime = 0;
+
+        DOM.bellAudio.play();
 
         // Cake
         DOM.cakeContainer.classList.add('animate-cake');
@@ -788,56 +833,70 @@ const LetterEngine = {
         DOM.sceneLetter.scrollTop = 0;
 
         // Inject letter HTML
-       DOM.letterContainer.innerHTML = '';
+        DOM.letterContainer.innerHTML = '';
 
-for (const para of CONFIG.letter.paragraphs) {
+        DOM.typewriterAudio.volume = 0.07;
 
-    const p = document.createElement('p');
+        DOM.typewriterAudio.playbackRate = 0.65;
 
-    p.className = 'journal-paragraph';
+        DOM.typewriterAudio.loop = true;
 
-    DOM.letterContainer.appendChild(p);
-    const paragraphs =
-    DOM.letterContainer.querySelectorAll('.journal-paragraph');
+        DOM.typewriterAudio.currentTime = 0;
 
-paragraphs.forEach((item, index) => {
+        DOM.typewriterAudio.play();
 
-    const age = paragraphs.length - 1 - index;
+        for (const para of CONFIG.letter.paragraphs) {
 
-    if (age === 0) {
+            const p = document.createElement('p');
 
-        item.style.opacity = '1';
+            p.className = 'journal-paragraph';
 
-    }
+            DOM.letterContainer.appendChild(p);
+            const paragraphs =
+                DOM.letterContainer.querySelectorAll('.journal-paragraph');
 
-    else if (age === 1) {
+            paragraphs.forEach((item, index) => {
 
-        item.style.opacity = '.55';
+                const age = paragraphs.length - 1 - index;
 
-    }
+                if (age === 0) {
 
-    else if (age === 2) {
+                    item.style.opacity = '1';
 
-        item.style.opacity = '.25';
+                }
 
-    }
+                else if (age === 1) {
 
-    else {
+                    item.style.opacity = '.55';
 
-        item.style.opacity = '0';
+                }
 
-    }
+                else if (age === 2) {
 
-});
+                    item.style.opacity = '.25';
 
-    await StoryEngine._typeText(
-        p,
-        para,
-        55
-    );
+                }
 
-    await Util.wait(1000);
-}
+                else {
+
+                    item.style.opacity = '0';
+
+                }
+
+            });
+
+            await StoryEngine._typeText(
+                p,
+                para,
+                55
+            );
+
+            await Util.wait(1000);
+        }
+
+        DOM.typewriterAudio.pause();
+
+        DOM.typewriterAudio.currentTime = 0;
         DOM.letterContainer.scrollTop = 0;
         // DOM.letterContainer.classList.add('animate-letter');
 
@@ -890,6 +949,11 @@ const MovieController = {
 
         // Scene 3: Story (awaited — Promise-based)
         await StoryEngine.play();
+        DOM.bgMusic.volume = 0.35;
+
+        DOM.bgMusic.loop = true;
+
+        DOM.bgMusic.play();
 
         // Scene 4: Childhood
         await MemoryEngine.playChildhood();
@@ -899,6 +963,9 @@ const MovieController = {
 
         // Scene 6: Present
         await MemoryEngine.playPresent();
+        DOM.bgMusic.pause();
+
+        DOM.bgMusic.currentTime = 0;
 
         // Scene 7: Gift (awaited — event-driven Promise)
         await GiftEngine.play();
