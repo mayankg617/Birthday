@@ -51,7 +51,7 @@ const CONFIG = {
 
     celebration: {
         duration: 20000,
-        birthdayMessage: '🌸 Happy Birthday, Dear Noni 🌸\n\nMay every day of your life\nfeel as beautiful as you make ours.',
+        birthdayMessage: '🌸 Happy Birthday! 🌸\n\nMay every day of your life\nfeel as beautiful as you make ours.',
         balloonCount: 18,
         fireworkCount: 8,
         petalCount: 18,
@@ -62,7 +62,7 @@ const CONFIG = {
 
         paragraphs: [
 
-            "Dear Noni,",
+            "Dear .......,",
 
             "Some people walk into your life quietly, and before you know it, they have become your favourite part of every day.",
 
@@ -72,7 +72,7 @@ const CONFIG = {
 
             "On your birthday, I just want you to know — the world is a little warmer, a little kinder, and a whole lot more beautiful because you are in it.",
 
-            "Happy Birthday Bacchua. 🌸"
+            "Happy Birthday again.... 🌸"
 
         ]
     },
@@ -82,7 +82,7 @@ const CONFIG = {
         lineDelay: 850,
         blockDelay: 1600,
         lines: [
-            { type: 'date', text: '21 May 2024' },
+            { type: 'date', text: '11 July 2023' },
             { type: 'line', text: 'A simple "Hi."' },
             { type: 'line', text: 'A few conversations.' },
             { type: 'line', text: 'Nothing unusual.' },
@@ -90,7 +90,7 @@ const CONFIG = {
             { type: 'pause' },
             { type: 'line', text: '...' },
             { type: 'pause' },
-            { type: 'date', text: '14 May 2026' },
+            { type: 'date', text: '6 November 2025' },
             { type: 'line', text: 'Another message.' },
             { type: 'line', text: 'This time,' },
             { type: 'line', text: 'the conversations lasted longer.' },
